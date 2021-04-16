@@ -26,6 +26,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "shimmerstick"
+    },
+    {
+      "name": "Shimmer",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shimmer"
     }
   ],
   "variable_elements": [],
