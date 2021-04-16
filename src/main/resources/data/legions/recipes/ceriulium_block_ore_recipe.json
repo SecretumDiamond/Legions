@@ -1,0 +1,13 @@
+{
+  "group": "legions",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "legions:ceriulium_block"
+    }
+  ],
+  "result": {
+    "item": "legions:ceriulium_ingot",
+    "count": 9
+  }
+}

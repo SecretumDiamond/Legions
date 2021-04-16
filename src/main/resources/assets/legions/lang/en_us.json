@@ -1,3 +1,20 @@
 {
-  "item.legions.shimmerstick": "Shimmerstick"
+  "item.legions.ceriulium_ingot": "Ceriulium",
+  "item.legions.ceriulium_armor_leggings": "Ceriulium Leggings",
+  "item.legions.ceriulium_armor_boots": "Ceriulium Boots",
+  "item.legions.ceriulium_sword": "Ceriulium Sword",
+  "item.legions.enderwings_boots": "Enderwings Boots",
+  "item.legions.ceriulium_shovel": "Ceriulium Shovel",
+  "item.legions.shimmerstick": "Shimmerstick",
+  "block.legions.ceriulium_block": "Block of Ceriulium",
+  "item.legions.ceriulium_hoe": "Ceriulium Hoe",
+  "item.legions.ceriulium_armor_helmet": "Ceriulium Helmet",
+  "item.legions.enderwings_leggings": "Enderwings Leggings",
+  "item.legions.ceriulium_armor_chestplate": "Ceriulium Chestplate",
+  "item.legions.enderwings_chestplate": "Enderwings ",
+  "block.legions.ceriulium_ore": "Ceriulium Ore",
+  "item.legions.dragonwing": "Dragonwing",
+  "item.legions.ceriulium_pickaxe": "Ceriulium Pickaxe",
+  "item.legions.ceriulium_axe": "Ceriulium Axe",
+  "item.legions.enderwings_helmet": "Enderwings Helmet"
 }

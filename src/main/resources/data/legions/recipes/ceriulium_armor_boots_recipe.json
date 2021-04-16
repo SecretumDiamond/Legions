@@ -1,0 +1,26 @@
+{
+  "group": "legions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "legions:ceriulium_ingot"
+    },
+    "2": {
+      "item": "legions:ceriulium_ingot"
+    },
+    "3": {
+      "item": "legions:ceriulium_ingot"
+    },
+    "5": {
+      "item": "legions:ceriulium_ingot"
+    }
+  },
+  "result": {
+    "item": "legions:ceriulium_armor_boots",
+    "count": 1
+  }
+}

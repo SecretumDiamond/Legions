@@ -35,13 +35,275 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "shimmer"
+    },
+    {
+      "name": "EnderwingsBodyTickEvent",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enderwings_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Enderwings",
+      "type": "armor",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enderwings",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": false,
+        "ec": true
+      }
+    },
+    {
+      "name": "Dragonwing",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragonwing"
+    },
+    {
+      "name": "EnderDragon",
+      "type": "loottable",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ender_dragon"
+    },
+    {
+      "name": "CeriuliumIngot",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ceriulium_ingot"
+    },
+    {
+      "name": "CeriuliumOre",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ceriulium_ore"
+    },
+    {
+      "name": "CeriuliumBlock",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ceriulium_block"
+    },
+    {
+      "name": "CeriuliumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ceriulium_ore_block_recipe"
+    },
+    {
+      "name": "CeriuliumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ceriulium_block_ore_recipe"
+    },
+    {
+      "name": "CeriuliumOreSmelting",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ceriulium_ore_smelting"
+    },
+    {
+      "name": "CeriuliumPickaxe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ceriulium_pickaxe"
+    },
+    {
+      "name": "CeriuliumAxe",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ceriulium_axe"
+    },
+    {
+      "name": "CeriuliumSword",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ceriulium_sword"
+    },
+    {
+      "name": "CeriuliumShovel",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ceriulium_shovel"
+    },
+    {
+      "name": "CeriuliumHoe",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ceriulium_hoe"
+    },
+    {
+      "name": "CeriuliumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ceriulium_pickaxe_recipe"
+    },
+    {
+      "name": "CeriuliumAxeRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ceriulium_axe_recipe"
+    },
+    {
+      "name": "CeriuliumSwordRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ceriulium_sword_recipe"
+    },
+    {
+      "name": "CeriuliumShovelRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ceriulium_shovel_recipe"
+    },
+    {
+      "name": "CeriuliumHoeRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ceriulium_hoe_recipe"
+    },
+    {
+      "name": "CeriuliumArmor",
+      "type": "armor",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ceriulium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "CeriuliumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ceriulium_armor_helmet_recipe"
+    },
+    {
+      "name": "CeriuliumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ceriulium_armor_body_recipe"
+    },
+    {
+      "name": "CeriuliumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ceriulium_armor_leggings_recipe"
+    },
+    {
+      "name": "CeriuliumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ceriulium_armor_boots_recipe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.legions.shimmerstick": "Shimmerstick"
+      "item.legions.ceriulium_ingot": "Ceriulium",
+      "item.legions.ceriulium_armor_leggings": "Ceriulium Leggings",
+      "item.legions.ceriulium_armor_boots": "Ceriulium Boots",
+      "item.legions.ceriulium_sword": "Ceriulium Sword",
+      "item.legions.enderwings_boots": "Enderwings Boots",
+      "item.legions.ceriulium_shovel": "Ceriulium Shovel",
+      "item.legions.shimmerstick": "Shimmerstick",
+      "block.legions.ceriulium_block": "Block of Ceriulium",
+      "item.legions.ceriulium_hoe": "Ceriulium Hoe",
+      "item.legions.ceriulium_armor_helmet": "Ceriulium Helmet",
+      "item.legions.enderwings_leggings": "Enderwings Leggings",
+      "item.legions.ceriulium_armor_chestplate": "Ceriulium Chestplate",
+      "item.legions.enderwings_chestplate": "Enderwings ",
+      "block.legions.ceriulium_ore": "Ceriulium Ore",
+      "item.legions.dragonwing": "Dragonwing",
+      "item.legions.ceriulium_pickaxe": "Ceriulium Pickaxe",
+      "item.legions.ceriulium_axe": "Ceriulium Axe",
+      "item.legions.enderwings_helmet": "Enderwings Helmet"
     }
   },
   "workspaceSettings": {
