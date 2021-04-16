@@ -280,6 +280,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ceriulium_armor_boots_recipe"
+    },
+    {
+      "name": "Orbbullet",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orbbullet"
+    },
+    {
+      "name": "Orb",
+      "type": "gun",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orb"
     }
   ],
   "variable_elements": [],
@@ -294,10 +312,12 @@
       "item.legions.ceriulium_shovel": "Ceriulium Shovel",
       "item.legions.shimmerstick": "Shimmerstick",
       "block.legions.ceriulium_block": "Block of Ceriulium",
+      "item.legions.orb": "Orb",
       "item.legions.ceriulium_hoe": "Ceriulium Hoe",
       "item.legions.ceriulium_armor_helmet": "Ceriulium Helmet",
       "item.legions.enderwings_leggings": "Enderwings Leggings",
       "item.legions.ceriulium_armor_chestplate": "Ceriulium Chestplate",
+      "item.legions.orbbullet": "Orbbullet",
       "item.legions.enderwings_chestplate": "Enderwings ",
       "block.legions.ceriulium_ore": "Ceriulium Ore",
       "item.legions.dragonwing": "Dragonwing",
