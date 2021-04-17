@@ -1,5 +1,7 @@
 package net.mcreator.legions.procedures;
 
+import net.minecraft.potion.Effects;
+import net.minecraft.potion.EffectInstance;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
@@ -21,6 +23,6 @@ public class EnderSwordToolInInventoryTickProcedure extends LegionsModElements.M
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof LivingEntity)
-			((LivingEntity) entity).setHealth((float) 40);
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.HEALTH_BOOST, (int) 1e+163, (int) 10));
 	}
 }
