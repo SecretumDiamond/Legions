@@ -5,14 +5,20 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.minecraft.world.World;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
+import net.minecraft.entity.Entity;
 
+import net.mcreator.legions.procedures.EnderSwordToolInInventoryTickProcedure;
 import net.mcreator.legions.LegionsModElements;
+
+import java.util.Map;
+import java.util.HashMap;
 
 @LegionsModElements.ModElement.Tag
 public class EnderSwordItem extends LegionsModElements.ModElement {
@@ -49,6 +55,19 @@ public class EnderSwordItem extends LegionsModElements.ModElement {
 				return Ingredient.EMPTY;
 			}
 		}, 3, -2f, new Item.Properties().group(ItemGroup.COMBAT)) {
+			@Override
+			public void inventoryTick(ItemStack itemstack, World world, Entity entity, int slot, boolean selected) {
+				super.inventoryTick(itemstack, world, entity, slot, selected);
+				double x = entity.getPosX();
+				double y = entity.getPosY();
+				double z = entity.getPosZ();
+				{
+					Map<String, Object> $_dependencies = new HashMap<>();
+					$_dependencies.put("entity", entity);
+					EnderSwordToolInInventoryTickProcedure.executeProcedure($_dependencies);
+				}
+			}
+
 			@Override
 			@OnlyIn(Dist.CLIENT)
 			public boolean hasEffect(ItemStack itemstack) {

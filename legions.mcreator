@@ -307,32 +307,189 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ender_sword"
+    },
+    {
+      "name": "EnderSwordToolInInventoryTick",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ender_sword_tool_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlassArmor",
+      "type": "armor",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glass_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "GlassArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glass_armor_helmet_recipe"
+    },
+    {
+      "name": "GlassArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glass_armor_body_recipe"
+    },
+    {
+      "name": "GlassArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glass_armor_leggings_recipe"
+    },
+    {
+      "name": "GlassArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glass_armor_boots_recipe"
+    },
+    {
+      "name": "GlassPickaxe",
+      "type": "tool",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glass_pickaxe"
+    },
+    {
+      "name": "GlassAxe",
+      "type": "tool",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glass_axe"
+    },
+    {
+      "name": "GlassSword",
+      "type": "tool",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glass_sword"
+    },
+    {
+      "name": "GlassShovel",
+      "type": "tool",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glass_shovel"
+    },
+    {
+      "name": "GlassPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glass_pickaxe_recipe"
+    },
+    {
+      "name": "GlassAxeRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glass_axe_recipe"
+    },
+    {
+      "name": "GlassSwordRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glass_sword_recipe"
+    },
+    {
+      "name": "GlassShovelRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glass_shovel_recipe"
+    },
+    {
+      "name": "GlassHoeRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glass_hoe_recipe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.legions.ceriulium_ingot": "Ceriulium",
-      "item.legions.ceriulium_armor_leggings": "Ceriulium Leggings",
-      "item.legions.ceriulium_armor_boots": "Ceriulium Boots",
       "item.legions.ender_sword": "Ender Sword",
       "item.legions.ceriulium_sword": "Ceriulium Sword",
-      "item.legions.enderwings_boots": "Enderwings Boots",
       "item.legions.ceriulium_shovel": "Ceriulium Shovel",
-      "item.legions.shimmerstick": "Shimmerstick",
-      "block.legions.ceriulium_block": "Block of Ceriulium",
       "item.legions.orb": "Orb",
       "item.legions.ceriulium_hoe": "Ceriulium Hoe",
+      "item.legions.glass_shovel": "Glass Shovel",
       "item.legions.ceriulium_armor_helmet": "Ceriulium Helmet",
-      "item.legions.enderwings_leggings": "Enderwings Leggings",
+      "item.legions.glass_pickaxe": "Glass Pickaxe",
       "item.legions.ceriulium_armor_chestplate": "Ceriulium Chestplate",
       "item.legions.orbbullet": "Orbbullet",
-      "item.legions.enderwings_chestplate": "Enderwings ",
       "block.legions.ceriulium_ore": "Ceriulium Ore",
+      "item.legions.glass_armor_leggings": "Glass Leggings",
       "item.legions.dragonwing": "Dragonwing",
       "item.legions.ceriulium_pickaxe": "Ceriulium Pickaxe",
       "item.legions.ceriulium_axe": "Ceriulium Axe",
+      "item.legions.ceriulium_ingot": "Ceriulium",
+      "item.legions.ceriulium_armor_leggings": "Ceriulium Leggings",
+      "item.legions.ceriulium_armor_boots": "Ceriulium Boots",
+      "item.legions.glass_armor_helmet": "Glass Helmet",
+      "item.legions.enderwings_boots": "Enderwings Boots",
+      "item.legions.glass_armor_boots": "Glass Boots",
+      "item.legions.shimmerstick": "Shimmerstick",
+      "item.legions.glass_axe": "Glass Axe",
+      "block.legions.ceriulium_block": "Block of Ceriulium",
+      "item.legions.enderwings_leggings": "Enderwings Leggings",
+      "item.legions.enderwings_chestplate": "Enderwings ",
+      "item.legions.glass_sword": "Glass Sword",
+      "item.legions.glass_armor_chestplate": "Glass Chestplate",
       "item.legions.enderwings_helmet": "Enderwings Helmet"
     }
   },

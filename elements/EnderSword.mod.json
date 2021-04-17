@@ -21,6 +21,9 @@
     "hasGlow": true,
     "repairItems": [],
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onItemInInventoryTick": {
+      "name": "EnderSwordToolInInventoryTick"
+    }
   }
 }
