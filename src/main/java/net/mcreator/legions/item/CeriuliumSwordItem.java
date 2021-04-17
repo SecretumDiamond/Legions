@@ -32,7 +32,7 @@ public class CeriuliumSwordItem extends LegionsModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 8f;
+				return 4f;
 			}
 
 			public int getHarvestLevel() {

@@ -46,7 +46,7 @@ public class EnderwingsItem extends LegionsModElements.ModElement {
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{2, 5, 10, 2}[slot.getIndex()];
+				return new int[]{2, 5, 8, 2}[slot.getIndex()];
 			}
 
 			public int getEnchantability() {
@@ -67,7 +67,7 @@ public class EnderwingsItem extends LegionsModElements.ModElement {
 			}
 
 			public float getToughness() {
-				return 0f;
+				return 2f;
 			}
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT)) {

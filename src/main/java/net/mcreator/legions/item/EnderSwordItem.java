@@ -42,7 +42,7 @@ public class EnderSwordItem extends LegionsModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 5f;
+				return 3f;
 			}
 
 			public int getHarvestLevel() {
