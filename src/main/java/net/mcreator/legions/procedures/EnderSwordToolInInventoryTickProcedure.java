@@ -23,6 +23,6 @@ public class EnderSwordToolInInventoryTickProcedure extends LegionsModElements.M
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof LivingEntity)
-			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.HEALTH_BOOST, (int) 1e+163, (int) 10));
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.HEALTH_BOOST, (int) 1e+163, (int) 4));
 	}
 }
