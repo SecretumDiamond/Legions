@@ -298,6 +298,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "orb"
+    },
+    {
+      "name": "EnderSword",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ender_sword"
     }
   ],
   "variable_elements": [],
@@ -307,6 +316,7 @@
       "item.legions.ceriulium_ingot": "Ceriulium",
       "item.legions.ceriulium_armor_leggings": "Ceriulium Leggings",
       "item.legions.ceriulium_armor_boots": "Ceriulium Boots",
+      "item.legions.ender_sword": "Ender Sword",
       "item.legions.ceriulium_sword": "Ceriulium Sword",
       "item.legions.enderwings_boots": "Enderwings Boots",
       "item.legions.ceriulium_shovel": "Ceriulium Shovel",
