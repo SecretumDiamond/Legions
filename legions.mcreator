@@ -309,23 +309,6 @@
       "registry_name": "ender_sword"
     },
     {
-      "name": "EnderSwordToolInInventoryTick",
-      "type": "procedure",
-      "sortid": 28,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "ender_sword_tool_in_inventory_tick",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "GlassArmor",
       "type": "armor",
       "sortid": 29,
@@ -456,6 +439,23 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "glass_hoe_recipe"
+    },
+    {
+      "name": "EnderSwordRightClickedInAir",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ender_sword_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],

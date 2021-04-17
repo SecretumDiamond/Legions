@@ -22,8 +22,8 @@
     "repairItems": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
-    "onItemInInventoryTick": {
-      "name": "EnderSwordToolInInventoryTick"
+    "onRightClickedInAir": {
+      "name": "EnderSwordRightClickedInAir"
     }
   }
 }
